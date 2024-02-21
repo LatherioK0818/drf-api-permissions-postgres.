@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import GameItems
+from game_items.models import GameItem
 
-admin.site.register(GameItems)
+admin.site.register(GameItem)
