@@ -5,9 +5,12 @@ djangorestframework==3.14.0
 iniconfig==2.0.0
 packaging==23.2
 pluggy==1.4.0
+psycopg==3.1.18
+psycopg-binary==3.1.18
 pytest==8.0.1
 pytz==2024.1
 rcssmin==1.1.1
 rjsmin==1.2.1
 sqlparse==0.4.4
+typing_extensions==4.9.0
 tzdata==2024.1

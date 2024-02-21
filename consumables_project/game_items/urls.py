@@ -1,9 +1,7 @@
-# urls.py
-
 from django.urls import path
-from .views import GameItemListView
+from .views import GameItemListView, GameItemDetailView
 
 urlpatterns = [
-    path('api/v1/game-items/', GameItemListView.as_view(), name='game-item-list'),
-    # Add other URL patterns as needed
+    path("api/game-items/", GameItemListView.as_view(), name="game-item-list"),
+    path("api/game-items/<int:pk>/", GameItemDetailView.as_view(), name="game-item-detail"),
 ]
